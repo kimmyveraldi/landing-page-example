@@ -1,20 +1,51 @@
 /* General */
-* {
+ * {
     margin:0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    flex:1;
     display:flex;
     flex-direction: column;
 }
 
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .section {
+    flex:1;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+p {
+    color:#a8a8a8;
+}
+
+button {
+    font-weight: 600;
+    background-color:#3882f6;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding:10px 16px;
+}
+
+img {
+    max-width: 100%;
+    min-width: 0;
+    display:block;
+}
 
 /* Navigation Bar */
 .nav {
@@ -42,14 +73,26 @@ a {
 
 
 /* Hero Section */
-img {
-    max-width: 100%;
-    min-width: 0;
+.hero {
+    background-color:#1f2937;
+}
 
+h1 {
+    font-size: 42px;;
+    color:white;
+}
+
+.hero-col {
+    max-width: 400px;
 }
 
 
 /* Info Section */
+h2 {
+    font-size: 32px;
+    color:#1f2937;
+}
+
 
 .info {
     display:flex;
@@ -57,17 +100,60 @@ img {
 }
 
 .grid {
+    flex:1;
     display: flex;
+    gap:30px;
 }
 
 .card {
-    min-width: 1px;
-    flex-shrink: 1;
     text-align: center;
 }
 
 
 /* Quote Section */
 .quote {
+    background-color: #e5e7eb;
+}
+
+q {
+    font-size:36px;
+    color:#1f2937;
+    font-weight:200;
+    font-style: italic;
+}
+.quote {
     flex-direction: column;
 }
+
+/* CTA Section */
+.CTA {
+    background-color:#3882f6;
+}
+
+.outline {
+    border: solid white 2px;
+}
+
+h4 {
+    color:white;
+    font-size:18px;
+}
+
+.background {
+    color:white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer-text {
+    text-align: center;
+    color:#e5e7eb;
+    background-color: #1f2937;
+}
+
+
