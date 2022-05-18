@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:100px;
+    padding:70px;
 }
 
 p {
@@ -40,6 +40,7 @@ button {
     border:none;
     border-radius: 5px;
     padding:10px 16px;
+    width: 150px;
 }
 
 img {
@@ -54,8 +55,7 @@ img {
     justify-content: space-between;
     align-items: center;
     background-color:#1f2937;
-    padding-left:100px;
-    padding-right:100px;
+    padding:20px 70px 0px 70px;
 }
 
 h3 {
@@ -87,19 +87,23 @@ h1 {
 
 .hero-col {
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
 
 
 /* Info Section */
-h2 {
-    font-size: 32px;
-    color:#1f2937;
-}
-
-
 .info {
     display:flex;
     flex-direction: column;
+    padding-top:0;
+}
+
+h2 {
+    font-size: 32px;
+    color:#1f2937;
+    padding:35px;
 }
 
 .grid {
@@ -110,6 +114,9 @@ h2 {
 
 .card {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
 }
 
 
@@ -125,12 +132,17 @@ q {
     font-style: italic;
 }
 .quote {
+    display:flex;
     flex-direction: column;
+    gap:10px;
 }
 
 /* CTA Section */
 .CTA {
+    padding:40px;
+    margin:50px 70px 50px 70px;
     background-color:#3882f6;
+    border-radius: 10px;
 }
 
 .outline {
@@ -152,8 +164,8 @@ h4 {
     justify-content: center;
 }
 
-
 .footer-text {
+    padding:30px;
     text-align: center;
     color:#e5e7eb;
     background-color: #1f2937;
