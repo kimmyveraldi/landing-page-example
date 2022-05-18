@@ -1,0 +1,57 @@
+/* General */
+* {
+    margin:0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+}
+
+
+/* Hero Section */
+img {
+    max-width: 100%;
+    min-width: 0;
+
+}
+
+
+/* Info Section */
+
+.info {
+    display:flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+}
+
+.card {
+    min-width: 1px;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+
+/* Quote Section */
+.quote {
+    flex-direction: column;
+}
